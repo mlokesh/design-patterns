@@ -17,7 +17,7 @@ public class DataManager implements ConnectionFactory {
     }
 
     public void loadData() {
-        if(local) {
+        if (local) {
             Local conn = getLocalConnection();
             data = conn.loadDB("db.db");
         } else {
