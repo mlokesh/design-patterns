@@ -18,6 +18,6 @@ public class Test {
             rm.connect2WWW("www.javacamp.org./db");
             di = rm.loadDB(dbFileName);
         }
-
     }
+
 }

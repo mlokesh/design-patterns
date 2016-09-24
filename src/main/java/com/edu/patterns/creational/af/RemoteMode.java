@@ -10,4 +10,5 @@ public class RemoteMode implements Remote {
         System.out.println("Load from a remote database");
         return null;
     }
+
 }

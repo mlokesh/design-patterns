@@ -5,7 +5,6 @@ public class DataManager implements ConnectionFactory {
     boolean local = false;
     DataInfo[] data;
 
-
     @Override
     public Local getLocalConnection() {
         return new LocalMode();
