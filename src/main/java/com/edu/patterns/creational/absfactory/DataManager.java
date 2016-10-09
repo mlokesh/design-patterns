@@ -1,4 +1,4 @@
-package com.edu.patterns.creational.af;
+package com.edu.patterns.creational.absfactory;
 
 public class DataManager implements ConnectionFactory {
 
