@@ -31,12 +31,12 @@ Behavioral Patterns --->
 --- Memento
 --- Observer
 --- State
---- Strategy
+*-- Strategy
 --- Template Method
 --- Visitor
 
-
-Strategy Pattern: (Also known as policy)
+========================================================================================================================
+Strategy pattern: (Also known as policy)
 
 Defines a set of encapsulated algorithms that can be swapped to carry out a specific behaviour
 
@@ -50,6 +50,12 @@ Benefits:
 
 Drawback:
 - Increases number of objects
-
-
+========================================================================================================================
+Proxy pattern:
+Provide a class which will limit access to another class.
+For security reasons. or it is accessed from remote location.
+========================================================================================================================
+Adapter pattern:
+Allows 2 incompatible interfaces to work together
+========================================================================================================================
 
